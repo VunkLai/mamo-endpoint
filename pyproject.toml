@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mano-endpoint"
+version = "0.1.0"
+description = ""
+authors = ["vunk.lai <vunk.lai@zyxel.com.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
