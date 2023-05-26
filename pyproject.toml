@@ -57,6 +57,9 @@ good-names = [
 
 [tool.mypy]
 ignore_missing_imports = true
+exclude = [
+  "/migrations/"
+]
 
 [build-system]
 requires = ["poetry-core"]
